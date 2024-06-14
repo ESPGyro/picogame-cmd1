@@ -1,7 +1,7 @@
 /**
  * BLE Command Processor
  */
-//% color=#0fbc11 icon="\uf113" block="藍牙指令編輯器"
+//% color=#0fbc11 icon="\uf113" block="藍牙指令輯器"
 namespace BLECmd {
     /**
      * Expand BLE command string

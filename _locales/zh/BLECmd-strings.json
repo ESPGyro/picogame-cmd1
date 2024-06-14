@@ -1,5 +1,7 @@
 {
-    "loc.customCategory": "自訂類別",
-    "loc.selectAction": "基本指令",
-    "loc.expandCommand": "處理迴圈功能"
+    "BLECmd.customCategory": "自訂類別",
+    "BLECmd.selectAction": "基本指令",
+    "BLECmd.expandCommand": "處理迴圈功能",
+    "BLECmd.Actions.Forward": "前進",
+    "BLECmd.Actions.Backward": "後退"
 }

@@ -1,7 +1,6 @@
 {
-    "BLECmd.customCategory|block": "自訂類別",
-    "BLECmd.selectAction|block": "基本指令",
-    "BLECmd.expandCommand|block": "處理迴圈功能",
+    "BLECmd.expandCommand|block": "處理迴圈功能|輸入指令 %a",
+    "BLECmd.selectAction|block": "基本指令|動作 %move"
     "BLECmd.Actions.Forward|block": "前進",
     "BLECmd.Actions.Backward|block": "後退"
 }

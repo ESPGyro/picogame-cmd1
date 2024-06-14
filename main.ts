@@ -11,7 +11,7 @@ namespace BLECmd {
      */
     //% blockId="expandCommand" block="Convert BLE command |input %s"
     export function expandCommand(s: string): string {
-        let newStr: string = s.substring(2, s.length - 1);
+        let newStr: string = s.substr(2, s.length - 1);
         return loopAdd(newStr, '5', '6');
 
      function loopAdd(s: string, startChar: string, endChar: string): string {

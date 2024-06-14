@@ -1,5 +1,5 @@
 {
-    "name": "BLECommandProcessor",
+    "name": "BLECmd",
     "version": "1.0.0",
     "description": "PicoGame 藍牙指令編輯器轉換積木",
     "license": "MIT",
@@ -9,7 +9,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "_locales/zh/BLECommandProcessor-strings.json"
+        "_locales/zh/BLECmd-strings.json"
     ],
     "public": true
 }

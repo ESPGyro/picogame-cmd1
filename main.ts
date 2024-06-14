@@ -10,12 +10,11 @@ namespace BLECmd {
      * @param endChar End character of the loop
      */
    enum Actions {
-    //% block="前進"
-    Forward,
-    //% block="後退"
-    Backward
+     Forward = 1,
+     Backward = 2,
 }
-   //% blockId="selectAction" block="select action | %move"
+   //% blockId="selectAction" block="basic cmd |action %move"
+   //% blockGap=1 weight=10 
     export function selectAction(move: Actions): void {
         if (move == Actions.Forward) {
             return "1";

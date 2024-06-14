@@ -9,18 +9,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "_locales/zh/README.md",
         "_locales/zh/BLECommandProcessor-strings.json"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "targetVersions": {
-        "target": "4.0.16",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "Mason"
+    "public": true
 }

@@ -1,4 +1,7 @@
 {
-    "BLECmd.expandCommand|block": "處理迴圈功能|輸入指令 %a",
-    "BLECmd.selectAction|block": "基本指令|動作 %move"
+    "loc": {
+        "customCategory": "藍牙指令編輯器",
+        "selectAction": "基本指令",
+        "expandCommand": "處理迴圈功能"
+    }
 }

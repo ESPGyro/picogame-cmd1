@@ -2,7 +2,7 @@
  * BLE Command Processor
  */
 //% color=#0fbc11 icon="\uf113"
-namespace BLECommandProcessor {
+namespace BLECmd {
     /**
      * Expand BLE command string
      * @param s BLE command string to expand

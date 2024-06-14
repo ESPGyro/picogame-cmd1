@@ -15,11 +15,11 @@ namespace BLECmd {
     //% block="後退"
     Backward
 }
-   //% blockId="selectAction" block="select action | %s"
-    export function selectAction(action: Actions): string {
-        if (action == Actions.Forward) {
+   //% blockId="selectAction" block="select action | %move"
+    export function selectAction(move: Actions): void {
+        if (move == Actions.Forward) {
             return "1";
-        } else if (action == Actions.Backward) {
+        } else if (move == Actions.Backward) {
             return "2";
         }
         return "";

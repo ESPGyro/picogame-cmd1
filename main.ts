@@ -1,7 +1,7 @@
 /**
  * BLE Command Processor
  */
-//% color=#0fbc11 icon="\uf113" block="loc.customCategory"
+//% color=#0fbc11 icon="\uf113" blockId="loc.customCategory"
 namespace BLECmd {
     /**
      * Expand BLE command string
@@ -13,7 +13,7 @@ namespace BLECmd {
      Forward = 1,
      Backward = 2,
 }
-   //% block="loc.selectAction|動作 %move"
+   //% blockId="loc.selectAction|動作 %move"
    //% blockGap=1 weight=10 
     export function selectAction(move: Actions): void {
         if (move == Actions.Forward) {
@@ -25,7 +25,7 @@ namespace BLECmd {
     }
 
     
-    //% block="loc.expandCommand|輸入指令 %a"
+    //% blockId="loc.expandCommand|輸入指令 %a"
     export function expandCommand(s: string): string {
         let newStr: string = s.substr(2, s.length - 1);
         return loopAdd(newStr, '5', '6');

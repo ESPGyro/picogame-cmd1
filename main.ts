@@ -9,7 +9,7 @@ namespace BLECmd {
      * @param startChar Start character of the loop
      * @param endChar End character of the loop
      */
-   enum Actions {
+   export enum Actions {
      Forward = 1,
      Backward = 2,
 }

@@ -1,7 +1,5 @@
 {
-    "loc": {
-        "customCategory": "藍牙指令編輯器",
-        "selectAction": "基本指令",
-        "expandCommand": "處理迴圈功能"
-    }
+    "loc.customCategory": "自訂類別",
+    "loc.selectAction": "基本指令",
+    "loc.expandCommand": "處理迴圈功能"
 }

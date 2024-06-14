@@ -9,7 +9,7 @@ namespace BLECommandProcessor {
      * @param startChar Start character of the loop
      * @param endChar End character of the loop
      */
-    //% block="expand command $s "
+    //% blockId="expandCommand" block="Convert BLE command %s"
     export function expandCommand(s: string): string {
         return loopAdd(s, '5', '6');
     }

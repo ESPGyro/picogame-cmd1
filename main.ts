@@ -12,9 +12,8 @@ namespace BLECmd {
     //% blockId="expandCommand" block="Convert BLE command |input %s"
     export function expandCommand(s: string): string {
         return loopAdd(s, '5', '6');
-    }
 
-    loopAdd(s: string, startChar: string, endChar: string): string {
+     function loopAdd(s: string, startChar: string, endChar: string): string {
         let result: string[] = [];
         let i: number = 0;
 
@@ -62,4 +61,6 @@ namespace BLECmd {
 
         return result.join('');
     }
+  } 
 }
+
